@@ -97,14 +97,12 @@ If you've recorded a video walkthrough, you can upload it to a public platform l
 ## 📌 Future Enhancements
 - 🔹 **User Authentication with Firebase**
 - 🔹 **Recipe Categories & Filtering**
-- 🔹 **Favorite Recipes / Bookmark Feature**
-- 🔹 **Dark Mode Toggle**
 - 🔹 **Improve UI with Tailwind CSS or Material-UI**
 
 ---
 
 ## 📌 Author
-👤 **Subin & Team**
+👤 **Subin**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
