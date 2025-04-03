@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 # Recipe Book App
-**🔗 Video Demo:** C:\Users\subin\Downloads\HiringHoodTasks\Day5RecBook\recipe-book-admin\src\Recording 2025-04-03 101828.mp4
+**🔗 Video Demo:** ".Recording 2025-04-03 101828.mp4"
 
 ## 📌 Overview
 The **Recipe Book App** is a web application built with **React + TypeScript** that allows users to **create, view, edit, and delete recipes**. The app uses **Redux Toolkit** for state management, **Formik + Yup** for form validation, and **React Router** for navigation. It also includes authentication pages for **login and signup**.
