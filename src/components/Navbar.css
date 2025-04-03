@@ -1,0 +1,67 @@
+.navbar {
+  background-color: #1e1e1e;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ Align Logo & Text Horizontally */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo-img {
+  width: 50px; /* Adjust logo size */
+  height: auto;
+  margin-right: 10px;
+}
+
+.brand-text {
+  font-size: 24px; /* Bigger Font */
+  font-weight: bold;
+  color: #ff9800; /* Accent Color */
+}
+
+/* ✅ Buttons Styling */
+.navbar-links {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-links button {
+  background: transparent;
+  padding: 8px 15px;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-links button:hover {
+  background: #ff9800;
+  color: black;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .navbar-links button {
+    width: 100%;
+  }
+}
